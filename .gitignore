@@ -1,6 +1,6 @@
 /__pycache__
 /database
-
+/lib/__pycache__
 /*.pt
 /*.png
 /*.csv
