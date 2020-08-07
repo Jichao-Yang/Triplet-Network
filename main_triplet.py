@@ -13,9 +13,9 @@ import random
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.decomposition import PCA
 
-import toolbox as tb
-from architecture import Network
-from loss import TripletLoss
+from lib import toolbox as tb
+from lib.loss import TripletLoss
+from lib.architecture import Network
 
 torch.cuda.manual_seed_all(100100)
 torch.manual_seed(100100)

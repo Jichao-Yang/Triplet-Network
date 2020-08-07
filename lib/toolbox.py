@@ -3,7 +3,7 @@ import torch
 from progress.bar import Bar
 import random
 
-from architecture import Network
+from lib.architecture import Network
 
 def unpack(train,test,max_val=255,channel_first=True,normalize=True,dtype='float32'):
     x_train = []
