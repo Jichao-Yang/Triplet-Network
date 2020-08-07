@@ -40,7 +40,7 @@ net.cuda()
 #%%
 #Initializes training
 
-epoch = 5
+epoch = 200
 batch_size = 100
 tripletLoss = TripletLoss(1)
 optimizer = torch.optim.SGD(net.parameters(), lr=0.01, momentum=0.9, weight_decay=0.001)

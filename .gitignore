@@ -1,1 +1,7 @@
 /__pycache__
+/database
+
+/*.pt
+/*.png
+/*.csv
+/main_scratch.py
