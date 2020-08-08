@@ -14,9 +14,12 @@ Using the following hyperparameters:
 learning_rate=0.01, loss_margin=1, batch_size=100, num_train_instance=50000, num_test_instance=10000
 ```
 The model achieves KNN-accuracy of 65% on testing dataset after around 50 epochs.
-![Loss](https://github.com/Jichao-Yang/triplet_network/blob/master/doc/loss.png | width=200) ![Accuracy](https://github.com/Jichao-Yang/triplet_network/blob/master/doc/acc.png | width=200)
+
+<img src="https://github.com/Jichao-Yang/triplet_network/blob/master/doc/loss.png" width="48"> <img src="https://github.com/Jichao-Yang/triplet_network/blob/master/doc/acc.png" width="48">
+
 The encoded images shows clusters after applying PCA for dimension reduction.
-![Training Set](https://github.com/Jichao-Yang/triplet_network/blob/master/doc/Encoded_train_set.png | width=200) ![Testing set](https://github.com/Jichao-Yang/triplet_network/blob/master/doc/Encoded_test_set.png | width=200)
+
+<img src="https://github.com/Jichao-Yang/triplet_network/blob/master/doc/Encoded_train_set.png" width="48"> <img src="https://github.com/Jichao-Yang/triplet_network/blob/master/doc/Encoded_test_set.png" width="48">
 
 ## Notes
 
