@@ -10,7 +10,9 @@ To customize loss function or model architecture, use the ```lib``` folder and m
 
 ## Results
 Using the following hyperparameters:
-```learning_rate=0.01, loss_margin=1, batch_size=100, num_train_instance=50000, num_test_instance=10000```
+```
+learning_rate=0.01, loss_margin=1, batch_size=100, num_train_instance=50000, num_test_instance=10000
+```
 The model achieves KNN-accuracy of 65% on testing dataset after around 50 epochs.
 
 ## Notes
