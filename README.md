@@ -4,8 +4,8 @@ This project is a coarse replication of the paper [Deep Metric Learning Using Tr
 
 ## Usage
 
-Run the ```main_triplet.py``` file to train the model. Loss, accuracy, and encoded graphs are auto-generated using ```matplotlib``` under root. By default, the dataset (CIFAR10 Images) will be encoded into 128D vectors by the trained model.
-Run the ```main_classifier.py``` file to train another independent, one-layer neural network, with inputs being the encoded images (128D vectors) and outputs being a softmax classifying vector (10D vector).
+Run the ```main_triplet.py``` file to train the model. Loss, accuracy, and encoded graphs are auto-generated using ```matplotlib``` under root. By default, the dataset (CIFAR10 Images) will be encoded into 128D vectors by the trained model.  
+Run the ```main_classifier.py``` file to train another independent, one-layer neural network, with inputs being the encoded images (128D vectors) and outputs being a softmax classifying vector (10D vector).  
 To customize loss function or model architecture, use the ```lib``` folder and modify the classes.
 
 ## Results
