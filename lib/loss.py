@@ -17,3 +17,20 @@ class TripletLoss(nn.Module):
             losses = losses.sum()
             
         return losses
+   
+class ContrastiveLoss(nn.Module):
+    def __init__(self, margin):
+        super(ContrastiveLoss, self).__init__()
+        self.margin = margin
+
+    def forward(self, output1, output2, target, size_average=True):
+        distances = (output2 - output1).pow(2).sum(1)
+        losses = (target.float()*distances +
+                 (1 + -1*target).float() * F.relu(self.margin-distances.sqrt()).pow(2))
+        
+        if size_average:
+            losses = losses.mean()
+        else:
+            losses = losses.sum()
+        
+        return losses
